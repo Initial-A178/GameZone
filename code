@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Zone</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .play-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: white;
+            background: #ff5722;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .play-button:hover {
+            background: #e64a19;
+            transform: scale(1.05);
+        }
+
+        .play-button:active {
+            background: #d84315;
+            transform: scale(0.95);
+        }
+
+        .container {
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+
+        .container h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .container p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ff5722;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Game Zone</h1>
+        <p>The ultimate destination for fun and adventure. Get ready to play!</p>
+        <!-- Menghubungkan ke halaman game yang sudah dibuat sebelumnya -->
+        <a href="halaman_game.html" target="_blank" class="play-button">Play Now</a>
+    </header>
+
+    <div class="container">
+        <h2>About the Game</h2>
+        <p>Dive into a thrilling world of challenges and excitement! Whether you love smashing bricks, racing cars, or exploring adventures, this game is for you.</p>
+        <p>Click the button above to start your journey!</p>
+    </div>
+
+    <footer>
+        <p>© 2024 Game Zone | <a href="https://examplegame.com" target="_blank">Visit Our Main Site</a></p>
+    </footer>
+</body>
+</html>
